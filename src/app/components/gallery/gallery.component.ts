@@ -40,312 +40,438 @@ export class GalleryComponent{
   ) {
 
     this.imgList1_1 = [
-      {
-        src: '../../../assets/image/img1.jpg',
-        caption: 'Sample Image'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      
+        { src: "../../../assets/image/folder1/Pre Wedding-1.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-2.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-3.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-4.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-5.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-6.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-7.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-8.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-9.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-10.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-11.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-12.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-13.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-14.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-15.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-16.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-17.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-18.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-19.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-20.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-21.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-22.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-23.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-24.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-25.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-26.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-27.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-28.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-29.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-30.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-31.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-32.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-33.jpg" },
     ]
 
     this.imgList1_2 = [
-      {
-        src: '../../../assets/image/img1.jpg',
-        caption: 'Sample Image'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      
+      { src: "../../../assets/image/folder1/Pre Wedding-34.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-35.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-36.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-37.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-38.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-39.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-40.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-41.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-42.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-43.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-44.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-45.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-46.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-47.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-48.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-49.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-50.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-51.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-52.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-53.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-54.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-55.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-56.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-57.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-58.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-59.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-60.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-61.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-62.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-63.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-64.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-65.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-66.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-67.jpg" },
+        { src: "../../../assets/image/folder1/Pre Wedding-68.jpg" },
     ]
 
     this.imgList1_3 = [
-      {
-        src: '../../../assets/image/img1.jpg',
-        caption: 'Sample Image'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      {
-        src: '../../../assets/image/img1.jpg'
-      },
-      
+      { src: "../../../assets/image/folder1/Pre Wedding-69.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-70.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-71.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-72.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-73.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-74.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-75.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-76.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-77.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-78.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-79.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-80.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-81.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-82.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-83.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-84.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-85.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-86.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-87.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-88.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-89.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-90.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-91.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-92.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-93.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-94.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-95.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-96.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-97.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-98.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-99.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-100.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-101.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-102.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-103.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-104.jpg" },
+      { src: "../../../assets/image/folder1/Pre Wedding-105.jpg" } 
     ]
 
     this.imgList2_1 = [
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      
+        { src: "../../../assets/image/folder2/Pre Wedding-1.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-2.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-3.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-4.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-5.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-6.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-7.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-8.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-9.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-10.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-11.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-12.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-13.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-14.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-15.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-16.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-17.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-18.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-19.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-20.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-21.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-22.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-23.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-24.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-25.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-26.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-27.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-28.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-29.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-30.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-31.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-32.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-33.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-34.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-35.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-36.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-37.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-38.jpg" },
     ]
 
     this.imgList2_2 = [
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      
+        { src: "../../../assets/image/folder2/Pre Wedding-39.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-40.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-41.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-42.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-43.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-44.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-45.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-46.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-47.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-48.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-49.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-50.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-51.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-52.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-53.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-54.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-55.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-56.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-57.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-58.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-59.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-60.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-61.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-62.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-63.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-64.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-65.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-66.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-67.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-68.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-69.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-70.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-71.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-72.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-73.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-74.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-75.jpg" },
+       
     ]
 
     this.imgList2_3 = [
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      {
-        src: '../../../assets/image/img2.jpg'
-      },
-      {
-        src: '../../../assets/image/logo.png'
-      },
-      
+        { src: "../../../assets/image/folder2/Pre Wedding-76.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-77.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-78.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-79.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-80.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-81.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-82.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-83.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-84.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-85.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-86.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-87.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-88.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-89.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-90.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-91.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-92.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-93.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-94.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-95.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-96.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-97.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-98.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-99.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-100.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-101.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-102.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-103.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-104.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-105.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-106.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-107.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-108.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-109.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-110.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-111.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-112.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-113.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-114.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-115.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-116.jpg" },
+        { src: "../../../assets/image/folder2/Pre Wedding-117.jpg" }
     ]
 
 
     this.imgList3_1 = [
-      {
-        src: '../../../assets/image/folder3/Media1.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media2.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media3.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media4.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media5.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media6.jpg'
-      },
-    ]
+        { src: "../../../assets/image/folder3/Peter1.JPG" },
+        { src: "../../../assets/image/folder3/Peter2.JPG" },
+        { src: "../../../assets/image/folder3/Peter3.JPG" },
+        { src: "../../../assets/image/folder3/Peter4.JPG" },
+        { src: "../../../assets/image/folder3/Peter5.JPG" },
+        { src: "../../../assets/image/folder3/Peter6.JPG" },
+        { src: "../../../assets/image/folder3/Peter7.JPG" },
+        { src: "../../../assets/image/folder3/Peter8.JPG" },
+        { src: "../../../assets/image/folder3/Peter9.JPG" },
+        { src: "../../../assets/image/folder3/Peter10.JPG" },
+        { src: "../../../assets/image/folder3/Peter11.JPG" },
+        { src: "../../../assets/image/folder3/Peter12.JPG" },
+        { src: "../../../assets/image/folder3/Peter13.JPG" },
+        { src: "../../../assets/image/folder3/Peter14.JPG" },
+        { src: "../../../assets/image/folder3/Peter15.JPG" },
+        { src: "../../../assets/image/folder3/Peter16.JPG" },
+        { src: "../../../assets/image/folder3/Peter17.JPG" },
+        { src: "../../../assets/image/folder3/Peter18.JPG" },
+        { src: "../../../assets/image/folder3/Peter19.JPG" },
+        { src: "../../../assets/image/folder3/Peter20.JPG" },
+        { src: "../../../assets/image/folder3/Peter21.JPG" },
+        { src: "../../../assets/image/folder3/Peter22.JPG" },
+        { src: "../../../assets/image/folder3/Peter23.JPG" },
+        { src: "../../../assets/image/folder3/Peter24.JPG" },
+        { src: "../../../assets/image/folder3/Peter25.JPG" },
+        { src: "../../../assets/image/folder3/Peter26.JPG" },
+        { src: "../../../assets/image/folder3/Peter27.JPG" },
+        { src: "../../../assets/image/folder3/Peter28.JPG" },
+        { src: "../../../assets/image/folder3/Peter29.JPG" },
+        { src: "../../../assets/image/folder3/Peter30.JPG" },
+        { src: "../../../assets/image/folder3/Peter31.JPG" },
+        { src: "../../../assets/image/folder3/Peter32.JPG" },
+        { src: "../../../assets/image/folder3/Peter33.JPG" },
+        { src: "../../../assets/image/folder3/Peter34.JPG" },
+        { src: "../../../assets/image/folder3/Peter35.JPG" },
+        { src: "../../../assets/image/folder3/Peter36.JPG" },
+        { src: "../../../assets/image/folder3/Peter37.JPG" },
+        { src: "../../../assets/image/folder3/Peter38.JPG" },
+        { src: "../../../assets/image/folder3/Peter39.JPG" },
+        { src: "../../../assets/image/folder3/Peter40.JPG" },
+        { src: "../../../assets/image/folder3/Peter41.JPG" },
+        { src: "../../../assets/image/folder3/Peter42.JPG" },
+        { src: "../../../assets/image/folder3/Peter43.JPG" },
+        { src: "../../../assets/image/folder3/Peter44.JPG" },
+        { src: "../../../assets/image/folder3/Peter45.JPG" },
+        { src: "../../../assets/image/folder3/Peter46.JPG" },
+        { src: "../../../assets/image/folder3/Peter47.JPG" },
+        { src: "../../../assets/image/folder3/Peter48.JPG" },
+        { src: "../../../assets/image/folder3/Peter49.JPG" },
+        { src: "../../../assets/image/folder3/Peter50.JPG" },
+        { src: "../../../assets/image/folder3/Peter51.JPG" },
+        { src: "../../../assets/image/folder3/Peter52.JPG" },
+        { src: "../../../assets/image/folder3/Peter53.JPG" },
+        { src: "../../../assets/image/folder3/Peter54.JPG" },
+        { src: "../../../assets/image/folder3/Peter55.JPG" },
+        { src: "../../../assets/image/folder3/Peter56.JPG" },
+        { src: "../../../assets/image/folder3/Peter57.JPG" },
+        { src: "../../../assets/image/folder3/Peter58.JPG" },
+        { src: "../../../assets/image/folder3/Peter59.JPG" },
+        { src: "../../../assets/image/folder3/Peter60.JPG" },
+        { src: "../../../assets/image/folder3/Peter61.JPG" },
+        { src: "../../../assets/image/folder3/Peter62.JPG" },
+        { src: "../../../assets/image/folder3/Peter63.JPG" },
+        { src: "../../../assets/image/folder3/Peter64.JPG" },
+      ]
+    
     this.imgList3_2 = [
-      {
-        src: '../../../assets/image/folder3/Media7.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media8.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media9.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media10.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media11.jpg'
-      },
+        { src: "../../../assets/image/folder3/Peter65.JPG" },
+        { src: "../../../assets/image/folder3/Peter66.JPG" },
+        { src: "../../../assets/image/folder3/Peter67.JPG" },
+        { src: "../../../assets/image/folder3/Peter68.JPG" },
+        { src: "../../../assets/image/folder3/Peter69.JPG" },
+        { src: "../../../assets/image/folder3/Peter70.JPG" },
+        { src: "../../../assets/image/folder3/Peter71.JPG" },
+        { src: "../../../assets/image/folder3/Peter72.JPG" },
+        { src: "../../../assets/image/folder3/Peter73.JPG" },
+        { src: "../../../assets/image/folder3/Peter74.JPG" },
+        { src: "../../../assets/image/folder3/Peter75.JPG" },
+        { src: "../../../assets/image/folder3/Peter76.JPG" },
+        { src: "../../../assets/image/folder3/Peter77.JPG" },
+        { src: "../../../assets/image/folder3/Peter78.JPG" },
+        { src: "../../../assets/image/folder3/Peter79.JPG" },
+        { src: "../../../assets/image/folder3/Peter80.JPG" },
+        { src: "../../../assets/image/folder3/Peter81.JPG" },
+        { src: "../../../assets/image/folder3/Peter82.JPG" },
+        { src: "../../../assets/image/folder3/Peter83.JPG" },
+        { src: "../../../assets/image/folder3/Peter84.JPG" },
+        { src: "../../../assets/image/folder3/Peter85.JPG" },
+        { src: "../../../assets/image/folder3/Peter86.JPG" },
+        { src: "../../../assets/image/folder3/Peter87.JPG" },
+        { src: "../../../assets/image/folder3/Peter88.JPG" },
+        { src: "../../../assets/image/folder3/Peter89.JPG" },
+        { src: "../../../assets/image/folder3/Peter90.JPG" },
+        { src: "../../../assets/image/folder3/Peter91.JPG" },
+        { src: "../../../assets/image/folder3/Peter92.JPG" },
+        { src: "../../../assets/image/folder3/Peter93.JPG" },
+        { src: "../../../assets/image/folder3/Peter94.JPG" },
+        { src: "../../../assets/image/folder3/Peter95.JPG" },
+        { src: "../../../assets/image/folder3/Peter96.JPG" },
+        { src: "../../../assets/image/folder3/Peter97.JPG" },
+        { src: "../../../assets/image/folder3/Peter98.JPG" },
+        { src: "../../../assets/image/folder3/Peter99.JPG" },
+        { src: "../../../assets/image/folder3/Peter100.JPG" },
+        { src: "../../../assets/image/folder3/Peter101.JPG" },
+        { src: "../../../assets/image/folder3/Peter102.JPG" },
+        { src: "../../../assets/image/folder3/Peter103.JPG" },
+        { src: "../../../assets/image/folder3/Peter104.JPG" },
+        { src: "../../../assets/image/folder3/Peter105.JPG" },
+        { src: "../../../assets/image/folder3/Peter106.JPG" },
+        { src: "../../../assets/image/folder3/Peter107.JPG" },
+        { src: "../../../assets/image/folder3/Peter108.JPG" },
+        { src: "../../../assets/image/folder3/Peter109.JPG" },
+        { src: "../../../assets/image/folder3/Peter110.JPG" },
+        { src: "../../../assets/image/folder3/Peter111.JPG" },
+        { src: "../../../assets/image/folder3/Peter112.JPG" },
+        { src: "../../../assets/image/folder3/Peter113.JPG" },
+        { src: "../../../assets/image/folder3/Peter114.JPG" },
+        { src: "../../../assets/image/folder3/Peter115.JPG" },
+        { src: "../../../assets/image/folder3/Peter116.JPG" },
+        { src: "../../../assets/image/folder3/Peter117.JPG" },
+        { src: "../../../assets/image/folder3/Peter118.JPG" },
+        { src: "../../../assets/image/folder3/Peter119.JPG" },
     ]
     this.imgList3_3 = [
-      {
-        src: '../../../assets/image/folder3/Media12.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media13.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media14.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media15.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media16.jpg'
-      },
-      {
-        src: '../../../assets/image/folder3/Media17.jpg'
-      }
+      { src: "../../../assets/image/folder3/Peter120.JPG" },
+      { src: "../../../assets/image/folder3/Peter121.JPG" },
+      { src: "../../../assets/image/folder3/Peter122.JPG" },
+      { src: "../../../assets/image/folder3/Peter123.JPG" },
+      { src: "../../../assets/image/folder3/Peter124.JPG" },
+      { src: "../../../assets/image/folder3/Peter125.JPG" },
+      { src: "../../../assets/image/folder3/Peter126.JPG" },
+      { src: "../../../assets/image/folder3/Peter127.JPG" },
+      { src: "../../../assets/image/folder3/Peter128.JPG" },
+      { src: "../../../assets/image/folder3/Peter129.JPG" },
+      { src: "../../../assets/image/folder3/Peter130.JPG" },
+      { src: "../../../assets/image/folder3/Peter131.JPG" },
+      { src: "../../../assets/image/folder3/Peter132.JPG" },
+      { src: "../../../assets/image/folder3/Peter133.JPG" },
+      { src: "../../../assets/image/folder3/Peter134.JPG" },
+      { src: "../../../assets/image/folder3/Peter135.JPG" },
+      { src: "../../../assets/image/folder3/Peter136.JPG" },
+      { src: "../../../assets/image/folder3/Peter137.JPG" },
+      { src: "../../../assets/image/folder3/Peter138.JPG" },
+      { src: "../../../assets/image/folder3/Peter139.JPG" },
+      { src: "../../../assets/image/folder3/Peter140.JPG" },
+      { src: "../../../assets/image/folder3/Peter141.JPG" },
+      { src: "../../../assets/image/folder3/Peter142.JPG" },
+      { src: "../../../assets/image/folder3/Peter143.JPG" },
+      { src: "../../../assets/image/folder3/Peter144.JPG" },
+      { src: "../../../assets/image/folder3/Peter145.JPG" },
+      { src: "../../../assets/image/folder3/Peter146.JPG" },
+      { src: "../../../assets/image/folder3/Peter147.JPG" },
+      { src: "../../../assets/image/folder3/Peter148.JPG" },
+      { src: "../../../assets/image/folder3/Peter149.JPG" },
+      { src: "../../../assets/image/folder3/Peter150.JPG" },
+      { src: "../../../assets/image/folder3/Peter151.JPG" },
+      { src: "../../../assets/image/folder3/Peter152.JPG" },
+      { src: "../../../assets/image/folder3/Peter153.JPG" },
+      { src: "../../../assets/image/folder3/Peter154.JPG" },
+      { src: "../../../assets/image/folder3/Peter155.JPG" },
+      { src: "../../../assets/image/folder3/Peter156.JPG" },
+      { src: "../../../assets/image/folder3/Peter157.JPG" },
+      { src: "../../../assets/image/folder3/Peter158.JPG" },
+      { src: "../../../assets/image/folder3/Peter159.JPG" },
+      { src: "../../../assets/image/folder3/Peter160.JPG" },
+      { src: "../../../assets/image/folder3/Peter161.JPG" },
+      { src: "../../../assets/image/folder3/Peter162.JPG" },
+      { src: "../../../assets/image/folder3/Peter163.JPG" },
+      { src: "../../../assets/image/folder3/Peter164.JPG" },
+      { src: "../../../assets/image/folder3/Peter165.JPG" },
+      { src: "../../../assets/image/folder3/Peter166.JPG" },
+      { src: "../../../assets/image/folder3/Peter167.JPG" },
+      { src: "../../../assets/image/folder3/Peter168.JPG" },
+      { src: "../../../assets/image/folder3/Peter169.JPG" },
+      { src: "../../../assets/image/folder3/Peter170.JPG" },
+      { src: "../../../assets/image/folder3/Peter171.JPG" },
+      { src: "../../../assets/image/folder3/Peter172.JPG" },
+      { src: "../../../assets/image/folder3/Peter173.JPG" },
+      { src: "../../../assets/image/folder3/Peter174.JPG" },
+      { src: "../../../assets/image/folder3/Peter175.JPG" },
+      { src: "../../../assets/image/folder3/Peter176.JPG" },
+      { src: "../../../assets/image/folder3/Peter177.JPG" },
+      { src: "../../../assets/image/folder3/Peter178.JPG" }
     ]
   }
 
   openLightbox(data:any, index: number): void {
    
     // this.renderer.addClass(document.body, 'new-class');
-    this.lightbox.open(data, index,{disableScrolling: true,wrapAround: true});
+    this.lightbox.open(data, index,{disableScrolling: true,wrapAround: true,});
   }
 
 }

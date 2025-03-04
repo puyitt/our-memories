@@ -34,18 +34,18 @@
         <div class="imgList">
             <div class="col">
                 <div *ngFor="let img of imgList2_1;let i = index">
-                    <img src={{img.src}} (click)="openLightbox(imgList1_1,i)" class="thumbnail">
+                    <img src={{img.src}} (click)="openLightbox(imgList2_1,i)" class="thumbnail">
                 </div>
             </div>
             
             <div class="col">
                 <div *ngFor="let img of imgList2_2;let i = index">
-                    <img src={{img.src}} (click)="openLightbox(imgList1_1,i)" class="thumbnail">
+                    <img src={{img.src}} (click)="openLightbox(imgList2_2,i)" class="thumbnail">
                 </div>
             </div>
             <div class="col">
                 <div *ngFor="let img of imgList2_3;let i = index">
-                    <img src={{img.src}} (click)="openLightbox(imgList1_1,i)" class="thumbnail">
+                    <img src={{img.src}} (click)="openLightbox(imgList2_3,i)" class="thumbnail">
                 </div>
             </div>
         </div>
