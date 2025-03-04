@@ -9,23 +9,23 @@
     </button>
   </div>
   
-  <div class="tab-content">
+  <div class="tab-content">    
     <div *ngIf="activeTab === 0">
         <div class="imgList">
             <div class="col">
                 <div *ngFor="let img of imgList1_1;let i = index">
-                    <img src={{img.src}} (click)="openLightbox(imgList1_1,i)" class="thumbnail">
+                    <img [src]=img.src (click)="openLightbox(imgList1_1,i)" class="thumbnail">
                 </div>
             </div>
             
             <div class="col">
                 <div *ngFor="let img of imgList1_2;let i = index">
-                    <img src={{img.src}} (click)="openLightbox(imgList1_2,i)" class="thumbnail">
+                    <img [src]=img.src (click)="openLightbox(imgList1_2,i)" class="thumbnail">
                 </div>
             </div>
             <div class="col">
                 <div *ngFor="let img of imgList1_3;let i = index">
-                    <img src={{img.src}} (click)="openLightbox(imgList1_3,i)" class="thumbnail">
+                    <img [src]=img.src (click)="openLightbox(imgList1_3,i)" class="thumbnail">
                 </div>
             </div>
         </div>

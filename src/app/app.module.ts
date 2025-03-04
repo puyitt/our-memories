@@ -20,7 +20,7 @@ import { InvitationComponent } from './components/invitation/invitation.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LightboxModule
+    LightboxModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

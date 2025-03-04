@@ -1,4 +1,4 @@
-import { Component, Renderer2 } from '@angular/core';
+import { AfterViewInit, Component, Renderer2 } from '@angular/core';
 import { OnDestroy } from '@angular/core';
 import { Lightbox, LightboxEvent, LIGHTBOX_EVENT } from 'ngx-lightbox';
 import { Subscription } from 'rxjs';
@@ -8,7 +8,7 @@ import { Subscription } from 'rxjs';
   templateUrl: './gallery.component.html',
   styleUrls: ['./gallery.component.scss']
 })
-export class GalleryComponent {
+export class GalleryComponent{
   activeTab: number = 0;
   imgList1_1: any;
   imgList1_2: any;
@@ -21,8 +21,6 @@ export class GalleryComponent {
   imgList3_1: any;
   imgList3_2: any;
   imgList3_3: any;
-
-  private _subscription: Subscription;
 
   setActiveTab(index: number) {
     this.activeTab = index;
@@ -40,7 +38,90 @@ export class GalleryComponent {
     private renderer: Renderer2,
     private lightboxEvent: LightboxEvent
   ) {
+
     this.imgList1_1 = [
+      {
+        src: '../../../assets/image/img1.jpg',
+        caption: 'Sample Image'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/logo.png'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      
+    ]
+
+    this.imgList1_2 = [
+      {
+        src: '../../../assets/image/img1.jpg',
+        caption: 'Sample Image'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/logo.png'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      {
+        src: '../../../assets/image/img1.jpg'
+      },
+      
+    ]
+
+    this.imgList1_3 = [
       {
         src: '../../../assets/image/img1.jpg',
         caption: 'Sample Image'
@@ -121,6 +202,87 @@ export class GalleryComponent {
       
     ]
 
+    this.imgList2_2 = [
+      {
+        src: '../../../assets/image/logo.png'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/logo.png'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/logo.png'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/logo.png'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/logo.png'
+      },
+      
+    ]
+
+    this.imgList2_3 = [
+      {
+        src: '../../../assets/image/logo.png'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/logo.png'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/logo.png'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/logo.png'
+      },
+      {
+        src: '../../../assets/image/img2.jpg'
+      },
+      {
+        src: '../../../assets/image/logo.png'
+      },
+      
+    ]
+
+
     this.imgList3_1 = [
       {
         src: '../../../assets/image/folder3/Media1.jpg'
@@ -178,30 +340,12 @@ export class GalleryComponent {
         src: '../../../assets/image/folder3/Media17.jpg'
       }
     ]
-    this._subscription = this.lightboxEvent.lightboxEvent$
-    .subscribe((event:any) => {
-      if (event.id === LIGHTBOX_EVENT.CLOSE) {
-        console.log('Lightbox closed');
-        this.afterClose();
-      }
-    });
   }
-
 
   openLightbox(data:any, index: number): void {
-    this.renderer.addClass(document.body, 'new-class');
-    this.lightbox.open(data, index);
+   
+    // this.renderer.addClass(document.body, 'new-class');
+    this.lightbox.open(data, index,{disableScrolling: true,wrapAround: true});
   }
 
-  afterClose(): void {
-    this.renderer.removeClass(document.body, 'new-class');
-
-  }
-
-  ngOnDestroy(): void {
-    // Unsubscribe to prevent memory leaks
-    if (this._subscription) {
-      this._subscription.unsubscribe();
-    }
-  }
 }

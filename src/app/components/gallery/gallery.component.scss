@@ -1,4 +1,4 @@
-@import '../../app.component.scss';
+@import '../../../styles.scss';
 
 .tabs {
     display: flex;
@@ -59,10 +59,18 @@ h1 {
         flex-flow: column;
         gap: 5px;
 
-        div {            
+        div {
+            overflow: hidden;
+
             img {
                 width: 100%;
                 height: auto;
+                cursor: pointer;
+                transition: transform 0.3s;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
             }
         }
     }
