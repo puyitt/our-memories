@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #dae7f9;
+    color: #42567b;
+
+    &.third {
+        background-color: #000;
+        color: #fff;
+
+        button {
+            color: #fff!important;
+        }
+    }
+}
+
+body.new-class {
+    overflow: hidden;
+}
+
+
+img {
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    color: #42567b!important;
+}

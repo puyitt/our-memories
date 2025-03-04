@@ -1,0 +1,74 @@
+
+<h1>Gallery</h1>
+
+<div class="tabs">
+    <button *ngFor="let tab of ['Pre-wedding Main Dress', 'Pre-wedding Casual ', 'Pre-wedding Myanmar Dress']; let i = index"
+            [class.active]="activeTab === i"
+            (click)="setActiveTab(i)">
+      {{ tab }}
+    </button>
+  </div>
+  
+  <div class="tab-content">
+    <div *ngIf="activeTab === 0">
+        <div class="imgList">
+            <div class="col">
+                <div *ngFor="let img of imgList1_1;let i = index">
+                    <img src={{img.src}} (click)="openLightbox(imgList1_1,i)" class="thumbnail">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div *ngFor="let img of imgList1_2;let i = index">
+                    <img src={{img.src}} (click)="openLightbox(imgList1_2,i)" class="thumbnail">
+                </div>
+            </div>
+            <div class="col">
+                <div *ngFor="let img of imgList1_3;let i = index">
+                    <img src={{img.src}} (click)="openLightbox(imgList1_3,i)" class="thumbnail">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="activeTab === 1">
+        <div class="imgList">
+            <div class="col">
+                <div *ngFor="let img of imgList2_1;let i = index">
+                    <img src={{img.src}} (click)="openLightbox(imgList1_1,i)" class="thumbnail">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div *ngFor="let img of imgList2_2;let i = index">
+                    <img src={{img.src}} (click)="openLightbox(imgList1_1,i)" class="thumbnail">
+                </div>
+            </div>
+            <div class="col">
+                <div *ngFor="let img of imgList2_3;let i = index">
+                    <img src={{img.src}} (click)="openLightbox(imgList1_1,i)" class="thumbnail">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="activeTab === 2">
+        <div class="imgList">
+            <div class="col">
+                <div *ngFor="let img of imgList3_1;let i = index">
+                    <img src={{img.src}} (click)="openLightbox(imgList3_1,i)" class="thumbnail">
+                </div>
+            </div>
+            
+            <div class="col">
+                <div *ngFor="let img of imgList3_2;let i = index">
+                    <img src={{img.src}} (click)="openLightbox(imgList3_2,i)" class="thumbnail">
+                </div>
+            </div>
+            <div class="col">
+                <div *ngFor="let img of imgList3_3;let i = index">
+                    <img src={{img.src}} (click)="openLightbox(imgList3_3,i)" class="thumbnail">
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  
